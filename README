@@ -1,0 +1,17 @@
+Alfred Lam
+CruzID: aylam
+HW2
+
+Part A:
+Implemented outline + bloom shader.
+
+Part B:
+Using multiple images, create terrain from textures. Use WASD and mouse to move around
+and view from different angles.
+
+CameraControl.cs taken from gunderson with permission at:
+
+https://gist.github.com/gunderson/d7f096bd07874f31671306318019d996
+
+Reflections are implemented within the terrain generating shader, with height values 
+below a certain threshold being turned into "water"
